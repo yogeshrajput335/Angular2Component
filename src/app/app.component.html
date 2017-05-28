@@ -1,3 +1,62 @@
 <h1>
   {{title}}
 </h1>
+<h2>DEFINITION : </h2>
+<p>The component is a controller class with a template which mainly deals with a view of the application and logic on the page. It is a bit of code can be used throughout an application. The component knows how to render itself and configure dependency injection.</p>
+<p>The component contains two important things; one is view and another one is some logic.</p>
+
+<ul>Content
+  <li>How to create a component?</li>
+  <li>How to initialize a component?</li>
+  <li>How to create a child component?</li>
+</ul>
+
+<strong>How to create a component?</strong>
+<br/>
+<u>Method 1 : Manual way</u>
+<ol>
+  <li>Create a file & named as test.component.ts in test folder </li>
+  <li>Add Decorator metadata with template and selector</li>
+  <li>add mandatory class</li>
+  <li>Import to app.module.ts >>TestComponent</li>
+  <li>Add in declaration array in app.module.ts >> TestComponent</li>
+  <li>Path :  Angular2Component >> src >> test >> test.component.ts</li>
+</ol>
+<u>Method 2 : Angular Cli way</u>
+<ol>
+  <li>Open cmd -> Go to application DIR</li>
+  <li>type >> ng g component test</li>
+  <li>Automatically component get created </li>
+  <li>component reference is added to the app.module.ts file </li>
+  <li>Path :  Angular2Component >> src >> test >> test.component.ts</li>
+</ol>
+  <app-test></app-test>
+<br/>
+<br/>
+<br/>
+<strong>How to initialize a component?</strong>
+<br/>
+<u>Method 1 : HTML Tag</u>
+<ol>
+  <li>Create a component.</li>
+  <li><app-testhtmltag></app-testhtmltag></li>
+</ol>
+<br/>
+<u>Method 2 : Attribute</u>
+<ol>
+  <li>Create a component</li>
+  <li>Enclosed selector with []</li>
+  <li><div app-testattribute></div></li>
+</ol>
+
+<br/>
+<u>Method 3 : Class</u>
+<ol>
+  <li>Create a component</li>
+  <li>Add a . in the selector</li>
+  <li><div class="app-testclass"></div></li>
+</ol>
+
+
+<strong>How to create a child component?</strong>
+<p>Under construction</p>
