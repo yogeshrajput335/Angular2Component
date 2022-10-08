@@ -1,5 +1,3 @@
-LIVE LINK :  https://nanoboat.github.io/Angular2Component/
-
 # Angular2Component
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.4.
